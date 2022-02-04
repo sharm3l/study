@@ -9,16 +9,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
+      <div className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+        <h1 className="title">
           Welcome to my Playground
         </h1>
 
-        <div>
-          <Image src="/sharmel.jpg" width="400px" height="300px"/>
-        </div>
-
-      </main>
+        <img src="/sharmel.jpg" />
+      </div>
 
 
     </div>
